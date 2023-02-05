@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import tflite from './tflite/tflite'
+import tflite_simd from './tflite/tflite-simd'
 
 function App() {
+  console.log(tflite)
+  console.log(tflite_simd)
   return (
     <div className="App">
       <header className="App-header">
